@@ -17,7 +17,7 @@ pg_dump --dbname=postgresql://${SourceDBUser}:${SourceDBPassword}@${SourceDBHost
 
 if [ $? -eq 0 ]; then
   ls -la /tmp
-  aws s3 mv /tmp/${FILENAME}.dump s3://prd-db-sync/
+  aws s3 mv /tmp/${FILENAME}.dump ${Destinations3Bucket}
   exit 0
 else
   exit 1
