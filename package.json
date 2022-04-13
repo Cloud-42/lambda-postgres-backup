@@ -12,5 +12,13 @@
   "dependencies": {
     "aws-lambda-ric": "^2.0.0",
     "promise": "^8.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloud-42/lambda-postgres-backup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cloud-42/lambda-postgres-backup/issues"
+  },
+  "homepage": "https://github.com/Cloud-42/lambda-postgres-backup#readme"
 }
