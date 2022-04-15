@@ -12,7 +12,7 @@ FILENAME="stg"
 
 echo "${FILENAME}.gz"
 
-pg_dump --dbname=postgresql://${SourceDBUser}:${SourceDBPassword}@${SourceDBHost}:${SourceDBport}/${SourceDBName} --no-owner > "/tmp/${FILENAME}.dump"
+pg_dump --dbname=postgresql://${SourceDBUser}:${SourceDBPassword}@${SourceDBHost}:${SourceDBport}/${SourceDBName} --no-owner  --format=custom > "/tmp/${FILENAME}.dump"
 
 if [ $? -eq 0 ]; then
   ls -la /tmp
