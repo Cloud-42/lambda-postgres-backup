@@ -12,7 +12,6 @@ FILENAME="stg"
 
 echo "${FILENAME}.gz"
 
-# Dump only the data and the schema (data definitions).
 pg_dump --dbname=postgresql://${SourceDBUser}:${SourceDBPassword}@${SourceDBHost}:${SourceDBport}/${SourceDBName} --no-owner > "/tmp/${FILENAME}.dump"
 
 if [ $? -eq 0 ]; then
