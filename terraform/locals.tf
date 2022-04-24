@@ -1,7 +1,7 @@
 locals {
   ssm_ignore_changes = [
     {
-      parameter = "-db-automation-SourceDBUser"
+      parameter = "client-db-automation-SourceDBUser"
       type      = "SecureString"
       value     = "changeme"
     },
