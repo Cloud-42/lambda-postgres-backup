@@ -31,3 +31,4 @@ Repository to create a Docker image , applied as a Lambda , which can be used to
 ### Limitations
 - [/tmp](https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-up-to-10-gb-ephemeral-storage/) has a maximum size of 10GBs.
 - Lambdas can only run for 15 minutes maximum.
+- [eu-west-2](https://github.com/Cloud-42/lambda-postgres-backup/blob/main/backup.sh#L6) used. Easily changed.
