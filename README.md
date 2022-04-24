@@ -11,6 +11,7 @@ Repository to create a Docker image , applied as a Lambda , which can be used to
 
 ### backup.sh
 - Docker image runs backup.sh to create a Postgres backup and upload it to s3. 
+- [wrapper script](https://github.com/Cloud-42/lambda-postgres-backup/blob/main/app.js#L8) instantiates backup.sh as a child process.
 - backup is created on [/tmp](https://aws.amazon.com/blogs/aws/aws-lambda-now-supports-up-to-10-gb-ephemeral-storage/). 
 - backup.sh looks up SSM parameters with a PREFIX.
 - Values after PREFIX- become environment variables. 
