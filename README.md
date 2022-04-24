@@ -1,4 +1,5 @@
-# lambda-postgres-backup
+## Backing up a Postgres database using Lambda. 
+
 Repository to create a Docker image , then applied as a Lambda , which can be used to backup a Postgres database.
 
 ### Steps to use:
