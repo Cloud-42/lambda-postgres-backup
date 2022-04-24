@@ -7,7 +7,7 @@ Repository to create a Docker image , applied as a Lambda , which can be used to
 - npm install aws-lambda-ric
 - docker build -t TAG .
 - docker push REPO
-- deploy Lambda or Update to use image 
+- deploy Lambda or update to use the pushed image 
 
 ### backup.sh
 - Docker image runs backup.sh to create a Postgres backup and upload it to s3. 
