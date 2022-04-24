@@ -1,32 +1,32 @@
 locals {
   ssm_ignore_changes = [
     {
-      parameter = "client-db-automation-SourceDBUser"
+      parameter = "PREFIX-SourceDBUser"
       type      = "SecureString"
       value     = "changeme"
     },
     {
-      parameter = "client-db-automation-SourceDBHost"
+      parameter = "PREFIX-SourceDBHost"
       type      = "SecureString"
       value     = "changeme"
     },
     {
-      parameter = "client-db-automation-SourceDBName"
+      parameter = "PREFIX-SourceDBName"
       type      = "SecureString"
       value     = "changeme"
     },
     {
-      parameter = "client-db-automation-SourceDBPassword"
+      parameter = "PREFIX-SourceDBPassword"
       type      = "SecureString"
       value     = "changeme"
     },
     {
-      parameter = "client-db-automation-SourceDBport"
+      parameter = "PREFIX-SourceDBport"
       type      = "SecureString"
       value     = "changeme"
     },
     {
-      parameter = "client-db-automation-Destinations3Bucket"
+      parameter = "PREFIX-Destinations3Bucket"
       type      = "SecureString"
       value     = "changeme"
     }
