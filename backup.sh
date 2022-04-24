@@ -8,7 +8,7 @@ done
 
 env
 
-FILENAME="stg"
+FILENAME="dump"
 
 echo "${FILENAME}.gz"
 
