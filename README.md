@@ -1,6 +1,6 @@
 ## Backing up a Postgres database using Lambda. 
 
-Repository to create a Docker image , then applied as a Lambda , which can be used to backup a Postgres database.
+Repository to create a Docker image , applied as a Lambda , which can be used to backup a Postgres database. Either on-demand or on a schedule. 
 
 ### Steps to use:
 - npm init -y
